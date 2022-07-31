@@ -1,5 +1,7 @@
 import CoverSection from "./components/coverSection";
+import Footer from "./components/footer";
 import Header from "./components/header"
+import Knowledge from "./components/portfolio";
 
 localStorage.theme = 'dark'
 function App() {
@@ -10,9 +12,9 @@ function App() {
       <Header/>
       <div className="container m-auto">
       <CoverSection/>
-
-      <div className="bg-yellow-500 h-96">sdf</div>
+      <Knowledge/>
       </div>
+      <Footer/>
     </div>
   );
 }
