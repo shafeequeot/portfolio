@@ -1,0 +1,74 @@
+const projects =  [
+         {
+            name: 'Netlix',
+            Url: 'https://github.com/shafeequeot/netflix-React jsApp',
+            discription: "Clone netflix with React js js, axios and API from https://api.themoviedb.org/3",
+            image:'#',
+            tag: ['React js', 'axios']
+        },
+         {
+            name: 'Linkedin',
+            Url: 'https://github.com/shafeequeot/linkedin',
+            discription: "Clone Linkedin Social media website with React js js and Firebase backend",
+            image:'#',
+            tag: ['React js', 'Firebase']
+        },
+        {
+            name: 'BookMyMove.ae',
+            Url: 'https://github.com/shafeequeot/mastermovers',
+            discription: "Book My move website developed for mastermovers.ae to booking moving services. It is ongoing project, waiting for complete backend to produce",
+            image:'#',
+            tag: ['React js', 'Tailwind CSS']
+        },
+        {
+            name: 'Portfolio',
+            Url: 'https://github.com/shafeequeot/portfolio',
+            discription: "Portfolio website developed with React jsjs, Redux, Redux tool kit, Tailwind CSS",
+            image:'#',
+            tag: ['React js', 'Tailwind CSS', 'Redux', 'Redux tool kit']
+        },
+        {
+            name: 'Moble Service Tracker',
+            Url: 'https://github.com/shafeequeot/Mobile-Service-Tracker',
+            discription: "Mobile service tracking system developed in Electron js js, data table and fs-extra as desktop application for mobile whole sale company",
+            image:'#',
+            tag: ['Electron js', 'data table', 'fs-extra']
+        }, 
+        {
+            name: 'Shopping cart',
+            Url: 'https://github.com/shafeequeot/Shopping-Cart-with-Node-express',
+            discription: "developed a dummy shopping cart for learning node js, node-express, and mongo db",
+            image:'#',
+            tag: ['Node js', 'express', 'mongo db']
+        }, 
+        {
+            name: 'Auxwall Gym Management',
+            Url: 'https://github.com/shafeequeot/Auxwall',
+            discription: "Desktopo application for gym membership, membership renewal, sale and purchase with accounting reports",
+            image:'#',
+            tag: ['Electron js', 'tabulator', 'sqlite', 'fs-extra']
+        }, 
+        {
+            name: 'mfost.net',
+            Url: 'https://mfost.net/',
+            discription: "Website for SEO and Webdesign as freelancer",
+            image:'#',
+            tag: ['Wordpress']
+        }, 
+        {
+            name: 'Master Movers LLC',
+            Url: 'https://mastermovers.ae/',
+            discription: "Website for Master movers LLC to showcase their services and products",
+            image:'#',
+            tag: ['Wordpress']
+        }, 
+        {
+            name: 'Muzaco Print & Pack',
+            Url: 'https://muzacopack.com/',
+            discription: "Website for Muzaco print and pack to showcase their services and products",
+            image:'#',
+            tag: ['Wordpress']
+        }
+    ]
+
+    export default projects
