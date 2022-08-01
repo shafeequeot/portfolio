@@ -1,12 +1,15 @@
 import { createSlice } from "@reduxjs/toolkit";
+import allprojects from '../components/SingComp/projects'
+
+const filterProjects = allprojects.frameWorks.filter(function(el){
+    if (el.tag.includes('React js')) return el
+})
 
 export const portfolioSlice = createSlice({
     name: 'portfolio',
     initialState: {
         value: {
-            name:"", 
-            description: '', 
-            photo: ""
+            filterProjects
         }
     },
 

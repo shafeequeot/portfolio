@@ -1,4 +1,4 @@
-const projects =  [
+const projects = { frameWorks: [
          {
             name: 'Netlix',
             Url: 'https://github.com/shafeequeot/netflix-React jsApp',
@@ -70,5 +70,6 @@ const projects =  [
             tag: ['Wordpress']
         }
     ]
+}
 
     export default projects

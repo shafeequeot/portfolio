@@ -14,7 +14,7 @@ function Knowledge() {
            <Item avatar='https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/firebase/images/touchicon-180.png' title="Firebase" discription='Firebase helps us to build backend tools Backed by Google, such as database, realtime databse, storages etc .'/>
 
         </div>
-        <div className='flex-1 bg-dark-400 rounded p-4'>
+        <div className='flex-1 bg-dark-700 rounded p-4'>
             <ViewItem/>
         </div>
         
