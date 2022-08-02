@@ -1,7 +1,7 @@
 import Item from './SingComp/item'
 import ViewItem from './SingComp/viewItem'
 
-function Knowledge() {
+function webDesign() {
   return (
     <div className='flex flex-row gap-4'>
        <div className='flex-1 flex flex-col gap-4'>
@@ -22,4 +22,4 @@ function Knowledge() {
   )
 }
 
-export default Knowledge
+export default webDesign

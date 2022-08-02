@@ -1,7 +1,6 @@
-import CoverSection from "./components/coverSection";
 import Footer from "./components/footer";
 import Header from "./components/header"
-import Knowledge from "./components/portfolio";
+import Homepage from "./page/homepage";
 
 localStorage.theme = 'dark'
 function App() {
@@ -10,10 +9,7 @@ function App() {
     <div className="mt-8 ">
     
       <Header/>
-      <div className="container m-auto">
-      <CoverSection/>
-      <Knowledge/>
-      </div>
+      <Homepage/>
       <Footer/>
     </div>
   );
