@@ -76,6 +76,24 @@ const projects = { frameWorks: [
             image:'../images/auxkart.jpg',
             tag: ['Wordpress', 'Woocommerce']
         }
+    
+    
+    ],graphicWorks:[
+        {
+            name: 'Adobe Illusatrator',
+            Url: 'https://github.com/shafeequeot/netflix-reactApp',
+            discription: "Clone netflix with React js js, axios and API from https://api.themoviedb.org/3",
+            image:'../images/netflix.jpg',
+            tag: ['Adobe Illustrator']
+        },
+        {
+            name: 'Adobe Photoshop',
+            Url: 'https://github.com/shafeequeot/netflix-reactApp',
+            discription: "Clone netflix with React js js, axios and API from https://api.themoviedb.org/3",
+            image:'../images/netflix.jpg',
+            tag: ['Adobe Photoshop']
+        }
+
     ]
 }
 

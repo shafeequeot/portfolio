@@ -25,8 +25,13 @@ function CoverSection() {
       <span className='font-thin'>Dedicated to work. Timely, Professionaly and unique.</span>
       </div>
 
+<<<<<<< HEAD
       <div>
         <video src='https://youtu.be/oOkGmK3_Hdg' autoPlay muted loop className='w-full h-64 bg-red-500'> d</video>
+=======
+      <div className='static right-0'>
+        <img className='animate-ping' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
+>>>>>>> e96ac0e9ed9a69c5626d936bb546aab62b070e86
       </div>
     </div>
   )
