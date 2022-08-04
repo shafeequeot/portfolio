@@ -19,6 +19,7 @@ module.exports = {
       },
       'animation': {
         'text':'text 5s ease infinite',
+        marquee: 'marquee 25s linear infinite',
     },
     'keyframes': {
         'text': {
@@ -31,6 +32,12 @@ module.exports = {
                 'background-position': 'right center'
             }
         },
+
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+          '0%': { transform: 'translateX(0%)' },
+        }
     }
     },
   },

@@ -5,7 +5,6 @@ import { useSelector } from 'react-redux'
 
 function ViewItem() {
   const portfolio = useSelector((state) => state.portfolio.value)
-  console.log(portfolio)
 
 
   const projectList = portfolio.filterProjects.map((key, id) =>
@@ -40,7 +39,6 @@ function ViewItem() {
         <img className='  w-full' src={key.image} alt={key.name}></img>
         </div>
       </div>
-        {console.log(key.image)}
       </div>
     </div>
 

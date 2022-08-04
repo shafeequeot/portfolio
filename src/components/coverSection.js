@@ -24,6 +24,10 @@ function CoverSection() {
       <span className='font-medium text-5xl '><span className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Yeah, I work hard </span>💼</span>
       <span className='font-thin'>Dedicated to work. Timely, Professionaly and unique.</span>
       </div>
+
+      <div>
+        <video src='https://youtu.be/oOkGmK3_Hdg' autoPlay muted loop className='w-full h-64 bg-red-500'> d</video>
+      </div>
     </div>
   )
 }
