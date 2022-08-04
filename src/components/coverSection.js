@@ -24,6 +24,10 @@ function CoverSection() {
       <span className='font-medium text-5xl '><span className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Yeah, I work hard </span>💼</span>
       <span className='font-thin'>Dedicated to work. Timely, Professionaly and unique.</span>
       </div>
+
+      <div className='static right-0'>
+        <img className='animate-ping' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
+      </div>
     </div>
   )
 }
