@@ -2,6 +2,9 @@ import React from 'react'
 import BackgroundAnimation from './backgroundAnimation'
 
 function CoverSection() {
+
+
+
   return (
     <div id='bgAnimation' className='transition-transform font-normal  flex flex-col  pb-10 p-10 shadow-xl my-10 rounded-lg gap-0'>
       <span className='text-lg lg:text-5xl md:text-3xl opacity-30 animate-bounce'>turning ideas into </span>
@@ -20,18 +23,26 @@ function CoverSection() {
         about digital products that help people experience everyday life, not endure it.
       </div>
 
-      <div className='mt-16 flex flex-col'>
-      <span className='font-medium text-5xl '><span className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Yeah, I work hard </span>💼</span>
-      <span className='font-thin'>Dedicated to work. Timely, Professionaly and unique.</span>
+      <div className='mt-16 flex flex-col animate-text'>
+        <span className='font-medium text-5xl '><span className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Yeah, I work hard </span>💼</span>
+        <span className='font-thin'>Dedicated to work. Timely, Professionaly and unique.</span>
       </div>
 
-<<<<<<< HEAD
-      <div>
-        <video src='https://youtu.be/oOkGmK3_Hdg' autoPlay muted loop className='w-full h-64 bg-red-500'> d</video>
-=======
-      <div className='static right-0'>
-        <img className='animate-ping' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
->>>>>>> e96ac0e9ed9a69c5626d936bb546aab62b070e86
+      <div className='static right-0 flex gap-4 h-44 overflow-hidden object-cover w-full'>
+        <div>
+        </div>
+        <img className='ease-in-out duration-700 animate-moveup ' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
+        <div>
+        </div>
+        <img className=' animate-moveup ease-in-out duration-150 moveup' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
+
+        <div>
+        </div>
+        <img className=' animate-moveup ease-in-out duration-500 moveup' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
+
+
+
+
       </div>
     </div>
   )
