@@ -28,17 +28,19 @@ function CoverSection() {
         <span className='font-thin'>Dedicated to work. Timely, Professionaly and unique.</span>
       </div>
 
-      <div className='static right-0 flex gap-4 h-44 overflow-hidden object-cover w-full'>
+      <div className='absolute right-20 flex gap-4 h-full opacity-25 overflow-hidden object-contain  w-1/3'>
         <div>
+
+          <img className='ease-in-out duration-700 animate-moveup  object-cover' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
         </div>
-        <img className='ease-in-out duration-700 animate-moveup ' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
         <div>
+          <img className='animate-moveup2 w-96 ease-in-out duration-1000 moveup object-cover' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
         </div>
-        <img className=' animate-moveup ease-in-out duration-150 moveup' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
 
         <div>
+
+          <img className=' animate-moveup3  object-cover ease-in-out duration-500 moveup' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
         </div>
-        <img className=' animate-moveup ease-in-out duration-500 moveup' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
 
 
 

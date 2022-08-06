@@ -19,8 +19,9 @@ module.exports = {
       },
       'animation': {
         'text':'text 5s ease infinite',
-        marquee: 'marquee 25s linear infinite',
-        moveup: 'moveup 30s linear infinite'
+        moveup: 'moveup 40s linear infinite ',
+        moveup2: 'moveup 90s linear infinite',
+        moveup3: 'moveup 60s linear infinite'
     },
     'keyframes': {
         'text': {
@@ -34,18 +35,15 @@ module.exports = {
             }
         },
 
-        marquee: {
-          '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-100%)' },
-          '0%': { transform: 'translateX(0%)' },
-        },
+    
         moveup: {
-          '0%': { transform: 'translateY(0%)' },
+          '0%': { transform: 'translateY(100%)' },
           '100%': { transform: 'translateY(-100%)' },
-          '0%': { transform: 'translateY(0%)' },
-        }
+        },
+       
     }
     },
+    
   },
   plugins: [
    
