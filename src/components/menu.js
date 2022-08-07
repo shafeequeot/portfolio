@@ -1,7 +1,7 @@
 import React from 'react'
 function Menu(props) {
   return (
-    <div className={`${props.mobMenu ? "visible overflow-y-auto fixed z-40 p-4 w-auto h-screen bg-gray-800 transition-transform left-0 top-0 translate-x-0 ease-in-out duration-500" : "-translate-x-full overflow-y-auto fixed top-0 h-screen  ease-in-out duration-500 "}`} >
+    <div className={`${props.mobMenu ? "visible overflow-y-auto fixed z-50 p-4 w-auto h-screen bg-gray-800 transition-transform left-0 top-0 translate-x-0 ease-in-out duration-500" : "-translate-x-full overflow-y-auto fixed top-0 h-screen  ease-in-out duration-500 "}`} >
 
 <div  class="" tabindex="-1" >
     <h5 id="drawer-navigation-label" class="text-base font-semibold  uppercase text-gray-400">Menu</h5>

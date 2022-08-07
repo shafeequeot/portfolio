@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import allprojects from '../components/SingComp/projects'
+import allprojects from '../components/singComp/projects'
 let Projects = {}
 
  Projects.webProjects = allprojects.frameWorks.filter(function(el){
@@ -18,7 +18,6 @@ export const portfolioSlice = createSlice({
 
     reducers:{
         changeItem: (state, action) =>{
-            console.log(action)
             if(action.payload.filterProjects.type==='webDesign'){
 
                 state.value =  {graphicProjects: state.value.graphicProjects, webProjects: action.payload.filterProjects.item}

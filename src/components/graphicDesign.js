@@ -1,12 +1,12 @@
 import React from 'react'
-import Item from './SingComp/item'
-import ViewItem from './SingComp/viewGraphiItem'
+import Item from './singComp/item'
+import ViewItem from './singComp/viewGraphiItem'
 
 function GraphicDesign() {
 
   
   return (
-    <div className='flex flex-row gap-4'>
+    <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-4'>
     <div className='flex-1 flex flex-col gap-4'>
     
         <Item name='graphicDesign' avatar='https://www.adobe.com/content/dam/cc/tnt/emea/emea0856/photoshop.svg' title="Adobe Photoshop" discription='Photoshop is tool to Create Beautiful Images, Graphics, Paintings, and 3D Artwork. If You Can Dream It, You Can Make It with Photoshop.'/>

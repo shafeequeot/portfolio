@@ -6,7 +6,7 @@ function Header() {
     const [mobMenu, setMobMenu] = useState(false)
     return (
         <>
-        <header className="text-white w-3/5 z-50  bg-dark-700 rounded-xl p-4 h-15  bg-opacity-60 m-auto top-4 backdrop-blur-lg	sticky flex justify-between items-center">
+        <header className="text-white sm:w-full lg:w-3/5 z-50  bg-dark-700 rounded-xl p-4 h-15  bg-opacity-60 m-auto top-4 backdrop-blur-lg	sticky flex justify-between items-center">
             <div className="flex items-center gap-2">
                 <div className="flex items-center justify-center w-12 h-12 font-bold text-purple-800 bg-dark-50 select-none rounded-full">
                     OT

@@ -1,5 +1,7 @@
 import React from 'react'
 import BackgroundAnimation from './backgroundAnimation'
+import Image from 'next/image'
+// import te from '../../public/images'
 
 function CoverSection() {
 
@@ -28,18 +30,18 @@ function CoverSection() {
         <span className='font-thin'>Dedicated to work. Timely, Professionaly and unique.</span>
       </div>
 
-      <div className='absolute right-20 flex gap-4 h-1/2 opacity-25 overflow-hidden object-contain  w-1/3'>
+      <div className='absolute right-20 flex gap-4 h-1/2 opacity-25 overflow-hidden object-contain  w-1/3 z-0'>
         <div>
 
-          <img className='ease-in-out duration-700 animate-moveup  object-cover' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
+          <Image width={350} height={2200} className='ease-in-out duration-700 animate-moveup  object-cover' src='/../public/images/banner-02.png' alt='cover photo'></Image>
         </div>
         <div>
-          <img className='animate-moveup2 w-96 ease-in-out duration-1000 moveup object-cover' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
+        <Image width={350} height={2200} className='ease-in-out duration-700 animate-moveup2  object-cover' src='/../public/images/banner-02.png' alt='cover photo'></Image>
         </div>
 
         <div>
 
-          <img className=' animate-moveup3  object-cover ease-in-out duration-500 moveup' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
+        <Image width={350} height={2200} className='ease-in-out duration-700 animate-moveup3  object-cover' src='/../public/images/banner-02.png' alt='cover photo'></Image>
         </div>
 
 

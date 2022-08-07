@@ -38,7 +38,7 @@ function ViewItem() {
         <img className='  w-full' src={key.image} alt={key.name}></img>
         </div>
       </div>
-        {console.log(key.image)}
+        
       </div>
     </div>
 
