@@ -28,7 +28,7 @@ function CoverSection() {
         <span className='font-thin'>Dedicated to work. Timely, Professionaly and unique.</span>
       </div>
 
-      <div className='absolute right-20 flex gap-4 h-full opacity-25 overflow-hidden object-contain  w-1/3'>
+      <div className='absolute right-20 flex gap-4 h-1/2 opacity-25 overflow-hidden object-contain  w-1/3'>
         <div>
 
           <img className='ease-in-out duration-700 animate-moveup  object-cover' src='https://rainbowit.net/splash/wp/imroz/assets/images/banner/banner-02.png' alt='cover photo'></img>
