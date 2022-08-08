@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import Image from 'next/image'
 
 
 
@@ -32,10 +33,10 @@ function ViewItem() {
       <div className='bg-dark-500  '>
       <div class="group cursor-pointer flex flex-col">
         <div className=' w-44  overflow-hidden'>
-        <img className='object-fill w-44' src={key.image} alt={key.name}></img>
+        <Image width={330} height={220} className='object-fill w-44' src={key.image} alt={key.name}></Image>
         </div>
         <div class="fixed ease-in-out duration-700 bottom-1/2 left-1/2 hidden  h-1/2 w-1/2 bg-gray-200 z-50 shadow-lg rounded object-cover  group-hover:block ...">
-        <img className='  w-full' src={key.image} alt={key.name}></img>
+        <Image width={700} height={500}  className='w-full' src={key.image} alt={key.name}></Image>
         </div>
       </div>
       </div>
