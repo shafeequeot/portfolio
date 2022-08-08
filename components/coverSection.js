@@ -1,6 +1,7 @@
 import React from 'react'
-import BackgroundAnimation from './backgroundAnimation'
+// import BackgroundAnimation from './backgroundAnimation'
 import Image from 'next/image'
+import coverPhoto from '../public/images/banner-02.png'
 // import te from '../../public/images'
 
 function CoverSection() {
@@ -8,7 +9,7 @@ function CoverSection() {
 
 
   return (
-    <div id='bgAnimation' className='transition-transform font-normal  flex flex-col  pb-10 p-10 shadow-xl my-10 rounded-lg gap-0'>
+    <div id='aboutMe' className='transition-transform font-normal  flex flex-col  pb-10 p-10 shadow-xl my-10 rounded-lg gap-0'>
       <span className='text-lg lg:text-5xl md:text-3xl opacity-30 animate-bounce'>turning ideas into </span>
       <span className=' md:text-7xl lg:text-8xl text-6xl bg-gradient-to-r bg-clip-text  text-transparent 
             from-indigo-500 via-purple-500 to-indigo-500
@@ -33,15 +34,15 @@ function CoverSection() {
       <div className='absolute right-20 flex gap-4 h-1/2 opacity-25 overflow-hidden object-contain  w-1/3 z-0'>
         <div>
 
-          <Image width={350} height={2200} className='ease-in-out duration-700 animate-moveup  object-cover' src='/../public/images/banner-02.png' alt='cover photo'></Image>
+          <Image width={350} height={2200} className='ease-in-out duration-700 animate-moveup  object-cover' src={coverPhoto} alt='cover photo'></Image>
         </div>
         <div>
-        <Image width={350} height={2200} className='ease-in-out duration-700 animate-moveup2  object-cover' src='/../public/images/banner-02.png' alt='cover photo'></Image>
+        <Image className='ease-in-out duration-700 animate-moveup2  object-cover' src={coverPhoto} alt='cover photo'></Image>
         </div>
 
         <div>
 
-        <Image width={350} height={2200} className='ease-in-out duration-700 animate-moveup3  object-cover' src='/../public/images/banner-02.png' alt='cover photo'></Image>
+        <Image  className='ease-in-out duration-700 animate-moveup3  object-cover' src={coverPhoto} alt='cover photo'></Image>
         </div>
 
 
@@ -51,6 +52,5 @@ function CoverSection() {
     </div>
   )
 }
-<BackgroundAnimation />
+{/* <BackgroundAnimation /> */}
 export default CoverSection
-

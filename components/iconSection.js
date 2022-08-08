@@ -1,23 +1,10 @@
 import React, { useEffect } from 'react'
-import Icon from './singComp/icon'
+import Icon from './reUsable/icon'
 
 
 function IconSection() {
 
-  // useEffect(()=>{
-  //   const flavoursContainer = document.getElementById('iconList');
-  //   const flavoursScrollWidth = flavoursContainer.scrollWidth;
-    
-  
-  //   setInterval(() => {
-  //     if (flavoursContainer.scrollLeft !== (flavoursScrollWidth)) {
-  //       flavoursContainer.scrollTo(flavoursContainer.scrollLeft + 60, 0);
-  //     }else{
-  //       flavoursContainer.scrollTo(flavoursContainer.scrollLeft - 60, 0);
 
-  //     }
-  //   }, 1000);
-  // },[])
 
 
   return (

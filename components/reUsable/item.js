@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { changeItem } from '../../redux/portfolioSlice'
-import allprojects from './projects'
+import allprojects from '../../api/projects'
 function Item(props) {
 
     const dispatch = useDispatch()

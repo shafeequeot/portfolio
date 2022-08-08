@@ -1,5 +1,5 @@
-import Item from './SingComp/item'
-import ViewItem from './SingComp/viewWebItem'
+import Item from './reUsable/item'
+import ViewItem from './reUsable/viewWebItem'
 
 function webDesign() {
   return (

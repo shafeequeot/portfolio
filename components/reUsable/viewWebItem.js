@@ -8,7 +8,7 @@ function ViewItem() {
 
 
   const projectList = portfolio.webProjects.map((key, id) =>
-    <div className='bg-dark-800 p-2 rounded flex ' >
+    <div id='whatIKnow' className='bg-dark-800 p-2 rounded flex ' >
       <div className='flex-1 flex flex-col gap-2'>
 
         <div className='font-medium text-cyan-400 '>

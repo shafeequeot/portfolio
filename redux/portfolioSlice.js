@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import allprojects from '../components/singComp/projects'
+import allprojects from '../api/projects'
 let Projects = {}
 
  Projects.webProjects = allprojects.frameWorks.filter(function(el){
