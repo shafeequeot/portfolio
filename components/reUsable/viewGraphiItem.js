@@ -37,10 +37,10 @@ function ViewItem() {
       <div class="group cursor-pointer flex flex-col">
         <div className=' w-44  overflow-hidden'>
          
-        <Image width={330} height={220} loader={myLoader} className='object-fill w-44' src={key.image} alt={key.name}></Image>
+        <img width={330} height={220} loader={myLoader} className='object-fill w-44' src={key.image} alt={key.name}></img>
         </div>
         <div class="fixed ease-in-out duration-700 bottom-1/2 left-1/2 hidden  h-1/2 w-1/2 bg-gray-200 z-50 shadow-lg rounded object-cover  group-hover:block ...">
-        <Image width={700} height={400} loader={myLoader}  className='w-full' src={key.image} alt={key.name}></Image>
+        <img width={700} height={400} loader={myLoader}  className='w-full' src={key.image} alt={key.name}></img>
         </div>
       </div>
       </div>
