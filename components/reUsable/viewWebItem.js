@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 import Image from 'next/image'
 
 const imageLoader = ({ src, width, quality }) => {
-  return `https://github.com/shafeequeot/portfolio/blob/main/public/${src}?w=${width}&q=${quality || 75}`
+  return `https://raw.githubusercontent.com/shafeequeot/portfolio/main/public/${src}?w=${width}&q=${quality || 75}`
 }
 
 function ViewItem() {
@@ -35,7 +35,7 @@ function ViewItem() {
       <div className='bg-dark-500  '>
       <div class="group cursor-pointer flex flex-col">
         <div className=' w-44  overflow-hidden'>
-        <img width={330} height={220} className='object-fill' src={key.image} alt={key.name}></img>
+        <img width={330} height={220} loader={imageLoader} className='object-fill' src={key.image} alt={key.name}></img>
         </div>
         <div class="fixed ease-in-out duration-700 bottom-1/2 left-1/2 hidden  h-1/2 w-1/2 bg-gray-200 z-50 shadow-lg rounded object-cover  group-hover:block ...">
         <img width={700} height={500} loader={imageLoader} className='w-full' src={key.image} alt={key.name}></img>
