@@ -2,7 +2,9 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import Image from 'next/image'
 
-
+const myLoader = ({ src, width, quality }) => {
+  return `https://shafeeque.ml/${src}?w=${width}&q=${quality || 75}`
+}
 
 function ViewItem() {
   const portfolio = useSelector((state) => state.portfolio.value)
@@ -35,10 +37,10 @@ function ViewItem() {
       <div class="group cursor-pointer flex flex-col">
         <div className=' w-44  overflow-hidden'>
          
-        <Image width={330} height={220} className='object-fill w-44' src={key.image} alt={key.name}></Image>
+        <Image width={330} height={220} loader={myLoader} className='object-fill w-44' src={key.image} alt={key.name}></Image>
         </div>
         <div class="fixed ease-in-out duration-700 bottom-1/2 left-1/2 hidden  h-1/2 w-1/2 bg-gray-200 z-50 shadow-lg rounded object-cover  group-hover:block ...">
-        <Image width={700} height={400}  className='w-full' src={key.image} alt={key.name}></Image>
+        <Image width={700} height={400} loader={myLoader}  className='w-full' src={key.image} alt={key.name}></Image>
         </div>
       </div>
       </div>
