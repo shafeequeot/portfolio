@@ -2,6 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { changeItem } from '../../redux/portfolioSlice'
 import allprojects from '../../api/projects'
+import Image from 'next/image'
 
 function Item(props) {
 
