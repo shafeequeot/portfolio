@@ -9,6 +9,7 @@ function ViewItem() {
 
 
   const projectList = portfolio.graphicProjects.map((key, id) =>
+ 
     <div className='bg-dark-800 p-2 rounded flex ' >
       <div className='flex-1 flex flex-col gap-2'>
 
@@ -33,7 +34,8 @@ function ViewItem() {
       <div className='bg-dark-500  '>
       <div class="group cursor-pointer flex flex-col">
         <div className=' w-44  overflow-hidden'>
-        <Image width={330} height={220} className='object-fill w-44' src={`${key.image}`} alt={key.name}></Image>
+         
+        <Image width={330} height={220} className='object-fill w-44' src={key.image} alt={key.name}></Image>
         </div>
         <div class="fixed ease-in-out duration-700 bottom-1/2 left-1/2 hidden  h-1/2 w-1/2 bg-gray-200 z-50 shadow-lg rounded object-cover  group-hover:block ...">
         <Image width={700} height={400}  className='w-full' src={key.image} alt={key.name}></Image>
