@@ -7,7 +7,7 @@ function GraphicDesign() {
   
   return (
     <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-4'>
-    <div className='flex-1 flex flex-col gap-4'>
+    <div className='flex-1 flex flex-row lg:flex-col gap-4 justify-center '>
     
         <Item name='graphicDesign' avatar='https://cc-prod.scene7.com/is/image/CCProdAuthor/dt_ai_mnemonic?$png$&jpegSize=100&wid=160' title="Adobe Illustrator" discription='Illustrator help us to create industry-standard vector graphics app to create logos, icons, drawings, typography, and illustrations for print and web'/>
         <Item name='graphicDesign' avatar='https://www.adobe.com/content/dam/cc/tnt/emea/emea0856/photoshop.svg' title="Adobe Photoshop" discription='Photoshop is tool to Create Beautiful Images, Graphics, Paintings, and 3D Artwork. If You Can Dream It, You Can Make It with Photoshop.'/>
