@@ -29,14 +29,14 @@ function ViewItem() {
 
         <div className='flex flex-row text-xs gap-1'>
           {key.tag.map(tag =>
-            <div className='  bg-dark-400 rounded p-1 '>{tag}</div>
+            <div className='  bg-dark-400 rounded p-1 text-xs overflow-hidden'>{tag}</div>
           )}
         </div>
       </div>
 
       <div className='bg-dark-500  '>
       <div class="group cursor-pointer flex flex-col">
-        <div className=' w-44  overflow-hidden'>
+        <div className=' w-16 md:w-28 lg:w-44  overflow-hidden'>
          
         <Image width={330} height={220} loader={imageLoader} className='object-fill w-44' src={key.image} alt={key.name}></Image>
         </div>
