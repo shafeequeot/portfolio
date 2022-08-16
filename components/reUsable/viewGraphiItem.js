@@ -13,7 +13,7 @@ function ViewItem() {
 
   const projectList = portfolio.graphicProjects.map((key, id) =>
  
-    <div className='bg-dark-800 p-2 rounded flex ' >
+    <div className='bg-dark-800 p-2 rounded flex' >
       <div className='flex-1 flex flex-col gap-2'>
 
         <div className='font-medium text-cyan-400 '>
@@ -24,7 +24,7 @@ function ViewItem() {
           {key.discription}
         </div>
         <div>
-          <a rel="noreferrer" target="_blank" className=' text-cyan-100 p-1 border-solid border-cyan-200 border text-xs rounded ' href={key.Url}>View project</a>
+          {/* <a rel="noreferrer" target="_blank" className=' text-cyan-100 p-1 border-solid border-cyan-200 border text-xs rounded ' href={key.Url}>View project</a> */}
         </div>
 
         <div className='flex flex-row text-xs gap-1'>

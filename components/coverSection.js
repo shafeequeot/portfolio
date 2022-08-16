@@ -2,6 +2,7 @@ import React from 'react'
 // import BackgroundAnimation from './backgroundAnimation'
 import Image from 'next/image'
 import coverPhoto from '../public/images/banner-02.png'
+import Link from 'next/link'
 // import te from '../../public/images'
 
 function CoverSection() {
@@ -17,7 +18,11 @@ function CoverSection() {
       <span className='lg:text-8xl md:text-7xl text-4xl opacity-30'>products </span>
 
       <div className='text-sm mt-16  text-cyan-200 w-36 hover:w-1/5 ease-in-out duration-300 cursor-pointer'>
-        view projects
+      <Link href="/#projects">
+
+       <a>view projects
+        </a> 
+      </Link>
         <div className='border-b border-cyan-200 border-solid w-1/3 hover:w-15'></div>
       </div>
 

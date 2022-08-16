@@ -80,18 +80,53 @@ const projects = { frameWorks: [
 
 ],graphicWorks:[
    {
-       name: 'Adobe Illusatrator',
-       Url: 'https://github.com/shafeequeot/netflix-reactApp',
-       discription: "Clone netflix with React js js, axios and API from https://api.themoviedb.org/3",
-       image:'/images/netflix.JPG',
+       name: 'Business Cards',
+       Url: '',
+       discription: "Business Cards / ID cards",
+       image:'/images/graphics/Bc.jpg',
        tag: ['Adobe Illustrator']
    },
    {
-       name: 'Adobe Photoshop',
-       Url: 'https://github.com/shafeequeot/netflix-reactApp',
-       discription: "Clone netflix with React js js, axios and API from https://api.themoviedb.org/3",
-       image:'/images/netflix.JPG',
-       tag: ['Adobe Photoshop']
+       name: 'Flyers',
+       Url: '',
+       discription: "Flyers / Brochures / Pamlet etc",
+       image:'/images/graphics/Bc.jpg',
+       tag: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign', 'Adobe CoralDraw']
+   },
+   {
+       name: 'Invitation Cards',
+       Url: '',
+       discription: "Invitation Cards / Certificates ",
+       image:'/images/graphics/invitation.jpg',
+       tag: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign', 'Adobe CoralDraw']
+   },
+   {
+       name: 'Letterheads',
+       Url: '',
+       discription: "Letterheads / Office Stationaries",
+       image:'/images/graphics/Letter head.jpg',
+       tag: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign', 'Adobe CoralDraw']
+   },
+   {
+       name: 'Logos',
+       Url: '',
+       discription: "Logos for branding",
+       image:'/images/graphics/logo-1.jpg',
+       tag: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign', 'Adobe CoralDraw']
+   },
+   {
+       name: 'Receipt Voucher ',
+       Url: '',
+       discription: "Receipt vouchers / Payment vouchers / Invoice NCR",
+       image:'/images/graphics/Receipt Voucher.jpg',
+       tag: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign', 'Adobe CoralDraw']
+   },
+   {
+       name: 'Social Media Posts',
+       Url: '',
+       discription: "Social media ads / Posts",
+       image:'/images/graphics/socialpost.jpg',
+       tag: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign', 'Adobe CoralDraw']
    }
 
 ]

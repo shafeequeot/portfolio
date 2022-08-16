@@ -15,7 +15,7 @@ function GraphicDesign() {
         <Item name='graphicDesign' avatar='https://www.coreldraw.com/static/cdgs/images/home/coreldraw-wm.png' title="CorelDRAW" discription='Embark on a design journey with pro tools for vector illustration, layout, photo editing, typography and collaboration.'/>
         
      </div>
-     <div className='flex-1 bg-dark-700 rounded p-4'>
+     <div className='flex-1 bg-dark-700 rounded p-4 lg:h-auto lg:overflow-auto'>
          <ViewItem/>
      </div>
      

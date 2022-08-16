@@ -11,7 +11,7 @@ function Homepage() {
     <div className="m-auto container">
       <CoverSection />
       <IconSection />
-      <Title text="Web design works" />
+      <Title  text="Web design works" />
       <Webdesign />
       <Title text="Graphic design works" />
       <GraphicDesign />

@@ -3,7 +3,7 @@ import ViewItem from './reUsable/viewWebItem'
 
 function webDesign() {
   return (
-    <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-4'>
+    <div id='projects' className='grid sm:grid-cols-1 lg:grid-cols-2 gap-4'>
        <div className='flex-1 flex flex-row lg:flex-col gap-2 justify-center '>
        
            <Item name='webDesign'  avatar='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K' title="React js" discription='React is a JavaScript library for building user interfaces. Declarative: React makes it painless to create interactive UIs.'/>
