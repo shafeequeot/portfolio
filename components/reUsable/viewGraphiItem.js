@@ -24,7 +24,7 @@ function ViewItem() {
           {key.discription}
         </div>
         <div>
-          {/* <a rel="noreferrer" target="_blank" className=' text-cyan-100 p-1 border-solid border-cyan-200 border text-xs rounded ' href={key.Url}>View project</a> */}
+          <a rel="noreferrer" target="_blank" className=' text-cyan-100 p-1 border-solid border-cyan-200 border text-xs rounded ' href={key.Url}>View project</a>
         </div>
 
         <div className='flex flex-row text-xs gap-1'>

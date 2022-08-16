@@ -81,49 +81,49 @@ const projects = { frameWorks: [
 ],graphicWorks:[
    {
        name: 'Business Cards',
-       Url: '',
+       Url: 'https://drive.google.com/drive/folders/103oZlO2ZkR_rmdNLm-Uf0L7YGYvSblFG?usp=sharing',
        discription: "Business Cards / ID cards",
        image:'/images/graphics/Bc.jpg',
        tag: ['Adobe Illustrator']
    },
    {
        name: 'Flyers',
-       Url: '',
+       Url: 'https://drive.google.com/drive/folders/1k4pmCABoC6N6wTjkadn0BljiwFK2LkvT?usp=sharing',
        discription: "Flyers / Brochures / Pamlet etc",
-       image:'/images/graphics/Bc.jpg',
+       image:'/images/graphics/flyer.jpg',
        tag: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign', 'Adobe CoralDraw']
    },
    {
-       name: 'Invitation Cards',
-       Url: '',
+       name: 'Invitation Cards / Danglers',
+       Url: 'https://drive.google.com/drive/folders/1Me5oOSjBs6AIMmF1UeUTovH8zOfdmoK9?usp=sharing',
        discription: "Invitation Cards / Certificates ",
        image:'/images/graphics/invitation.jpg',
        tag: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign', 'Adobe CoralDraw']
    },
    {
        name: 'Letterheads',
-       Url: '',
+       Url: 'https://drive.google.com/drive/folders/15DeSatT0eKNe0FnNaxnCwCm2RKJqbiTr?usp=sharing',
        discription: "Letterheads / Office Stationaries",
        image:'/images/graphics/Letter head.jpg',
        tag: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign', 'Adobe CoralDraw']
    },
    {
-       name: 'Logos',
-       Url: '',
+       name: 'Logos / Banners',
+       Url: 'https://drive.google.com/drive/folders/1HpYzS_rMd9q1NrGrUTb__ubFioAdfDHC?usp=sharing',
        discription: "Logos for branding",
        image:'/images/graphics/logo-1.jpg',
        tag: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign', 'Adobe CoralDraw']
    },
    {
-       name: 'Receipt Voucher ',
-       Url: '',
+       name: 'Receipt Voucher / Books ',
+       Url: 'https://drive.google.com/drive/folders/14sdF85V0d0b1Ikqca9W02-EiURPLvWzW?usp=sharing',
        discription: "Receipt vouchers / Payment vouchers / Invoice NCR",
        image:'/images/graphics/Receipt Voucher.jpg',
        tag: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign', 'Adobe CoralDraw']
    },
    {
-       name: 'Social Media Posts',
-       Url: '',
+       name: 'Social Media Posts / Packages',
+       Url: 'https://drive.google.com/drive/folders/1dZcaGfL9zw_xCbZ4ZepNy3GLCKPIMgAb?usp=sharing',
        discription: "Social media ads / Posts",
        image:'/images/graphics/socialpost.jpg',
        tag: ['Adobe Photoshop', 'Adobe Illustrator', 'Adobe InDesign', 'Adobe CoralDraw']
