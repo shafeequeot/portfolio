@@ -56,9 +56,9 @@ function Item(props) {
                         <div className='text-base uppercase font-medium '>
                             {props.title}
                         </div>
-                        <div className='text-sm  text-dark-100'>
+                        {/* <div className='text-sm  text-dark-100'>
                             {props.discription}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </label>

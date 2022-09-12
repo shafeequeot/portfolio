@@ -3,11 +3,11 @@ import allprojects from '../api/projects'
 let Projects = {}
 
  Projects.webProjects = allprojects.frameWorks.filter(function(el){
-    if (el.tag.includes('React js')) return el
+     return el
 })
 
 Projects.graphicProjects = allprojects.graphicWorks.filter(function(el){
-    if (el.tag.includes('Adobe Illustrator')) return el
+     return el
 })
 
 export const portfolioSlice = createSlice({

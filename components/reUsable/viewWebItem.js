@@ -49,7 +49,7 @@ function ViewItem() {
 
 
   return (
-    <div className='grid  auto-cols-auto gap-3'>
+    <div className='grid lg:grid-cols-2 auto-cols-auto gap-3'>
       {projectList}
      
     </div>
